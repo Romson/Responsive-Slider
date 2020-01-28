@@ -1,0 +1,7 @@
+$_path: "../img/";
+$images: ();
+
+@for $i from 1 through 6 {
+  $value: url($_path+"slide-"+$i+".jpeg");
+  $images: append($images, $value);
+}
